@@ -6,6 +6,14 @@
 
 ▶️ **Buka langsung di Google Colab:** https://colab.research.google.com/github/AliefReefandi/Data_sains_UTS/blob/main/UTS_DATA_SAINS_PLANE.ipynb
 
+## Anggota Kelompok
+
+| No | Nama | NIM |
+|---|---|---|
+| 1 | Muhammad Alief Reefandi | 101032330132 |
+| 2 | Satrio Arjuna Putra | 101032330178 |
+| 3 | M Marcheliano Taji Suryana | 101032300230 |
+
 ---
 
 ## Tentang Proyek
