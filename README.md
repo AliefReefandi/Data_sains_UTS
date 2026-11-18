@@ -64,10 +64,9 @@ Seluruh pengerjaan ada dalam satu notebook: [`UTS_DATA_SAINS_PLANE.ipynb`](UTS_D
 ## Cara Menjalankan
 
 1. Klik tombol **Open in Colab** di atas.
-2. Siapkan file dataset **`dataset_plane.zip`** yang berisi **`hflights.csv`**.
-3. Jalankan seluruh sel lewat menu **Runtime → Run all**.
-4. Saat sel upload muncul, pilih file `dataset_plane.zip`. Notebook akan mengekstrak dan memuat datanya secara otomatis.
-5. Setelah seluruh sel selesai, model tersimpan di folder `models/` dan form prediksi interaktif dapat dicoba di bagian **Step 6 – Deployment**.
+2. Jalankan seluruh sel lewat menu **Runtime → Run all**.
+3. Selesai. Notebook otomatis mengunduh dataset [`archive.zip`](archive.zip) dari repository ini, mengekstrak `hflights.csv`, lalu menjalankan seluruh analisis dan pemodelan. **Tidak perlu meng-upload file apa pun.**
+4. Setelah seluruh sel selesai, model tersimpan di folder `models/` dan form prediksi interaktif dapat dicoba di bagian **Step 6 – Deployment**.
 
 > Dataset yang digunakan adalah **hflights**, yaitu data penerbangan dari Houston tahun 2011. Dataset ini juga tersedia sebagai paket R [`hflights`](https://cran.r-project.org/package=hflights).
 
@@ -86,5 +85,6 @@ Seluruh pengerjaan ada dalam satu notebook: [`UTS_DATA_SAINS_PLANE.ipynb`](UTS_D
 ```
 Data_sains_UTS/
 ├── README.md                    # Penjelasan proyek (file ini)
-└── UTS_DATA_SAINS_PLANE.ipynb   # Notebook analisis dan pemodelan
+├── UTS_DATA_SAINS_PLANE.ipynb   # Notebook analisis dan pemodelan
+└── archive.zip                  # Dataset hflights.csv (diunduh otomatis oleh notebook)
 ```
